@@ -127,7 +127,7 @@ public class ApiConfig {
     }
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "http://我不是.肥猫.love:63/接口禁止贩卖");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://www.qqwj.live/tvbox/tv1.json");
         if (apiUrl.isEmpty()) {
             callback.error("-1");
             return;
